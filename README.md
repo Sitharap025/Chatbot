@@ -10,3 +10,12 @@ TumorTalk is an AI-powered chatbot designed to assist with cancer research by an
 - **Language Model Integration**: Leverages Groq-powered language models for generating responses.
 - **Customizable Embeddings**: Supports HuggingFace embeddings for document vectorization.
 
+## Dependencies
+langchain
+langchain-community
+langchain-groq
+transformers
+torch
+faiss-cpu
+python-dotenv
+
