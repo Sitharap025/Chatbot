@@ -54,7 +54,6 @@ for i, doc in enumerate(results):
 
 llm = ChatGroq(
     groq_api_key=os.environ['GROQ_API_KEY'],
-    #groq_api_key="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",
     model_name="llama-3.2-1b-preview",  
 )
 
@@ -79,6 +78,7 @@ messages = [
 # Invoke LLM
 response = llm.invoke(messages)
 print("\n\n Answer:\n", response.content)
+
 
 
 
